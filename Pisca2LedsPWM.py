@@ -6,8 +6,8 @@ import RPi.GPIO as GPIO, time
 
 modoEndereco = GPIO.BCM   # Modo de enderecamento dos pinos do RPi
 modoIO = GPIO.OUT         # Modo de configuração da porta de Entrada/Saida
-pinoLed1 = 17             # Pino do RPi associado ao led
-pinoLed2 = 18             # Pino do RPi associado ao led
+pinoLed1 = 17             # Pino do RPi associado ao Led1
+pinoLed2 = 18             # Pino do RPi associado ao Led2
 tempoEspera = 0.5         # Tempo de espera do pisca
 frequencia = 200          # Frequencia do ciclo PWM em Hertz (Hz)
 
