@@ -25,11 +25,11 @@ try:
     while 1:
         for dc in range(0, 101, 10): 
             led1.ChangeDutyCycle(dc)        #Led1 aumenta o brilho 
-	          led2.ChangeDutyCycle(100 - dc)  #Led2 diminui o brilho
+	    led2.ChangeDutyCycle(100 - dc)  #Led2 diminui o brilho
             time.sleep(tempoEspera)
         for dc in range(100, -1, -10):
             led1.ChangeDutyCycle(dc)        #Led1 diminui o brilho
-	          led2.ChangeDutyCycle(100 - dc)  #Led2 aumenta o brilho
+	    led2.ChangeDutyCycle(100 - dc)  #Led2 aumenta o brilho
             time.sleep(tempoEspera)
             
 except KeyboardInterrupt:
