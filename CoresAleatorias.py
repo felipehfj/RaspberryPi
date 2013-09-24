@@ -2,7 +2,7 @@
 
 # Autor: Felipe Ferreira
 
-# Cores aleatorias no Raspberry utilizando PWM e led RGB
+# Cores aleatorias com Raspberry utilizando PWM e led RGB
 
 import RPi.GPIO as GPIO
 import time
